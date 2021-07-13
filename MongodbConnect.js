@@ -10,6 +10,6 @@ console.log('Error occured'+err)
 })
 db.once('connected',function(){
 console.log('connection is successful to'+ MONG_URI)
-
+ 
 })
 module.exports=db

@@ -26,7 +26,7 @@ Books.countDocuments().exec()
  
           }) .catch(err => {
             console.error(err)
-          })
+          }) 
     
 })
 
